@@ -1,0 +1,36 @@
+# --- Big or binary data: kept on your disk, never pushed to GitHub ---
+data/raw/
+*.tif
+*.tiff
+*.vrt
+*.img
+*.ovr
+*.aux.xml
+*.gpkg
+*.zip
+
+# --- ArcGIS Pro internals (the project rebuilds these) ---
+arcgis/**/*.gdb/
+arcgis/**/ImportLog/
+arcgis/**/Index/
+arcgis/**/.backups/
+*.atbx.bak
+*.lock
+
+# --- Literature PDFs are copyrighted: keep them local ---
+literature/*.pdf
+
+# --- Python / OS clutter ---
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Private working folders: stay on my computer, never on GitHub ---
+docs/
+homework/
+literature/
+report/
+LEARNING_LOG.md
