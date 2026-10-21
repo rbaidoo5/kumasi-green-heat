@@ -16,11 +16,11 @@ Analysis in Google Earth Engine, homework maps in ArcGIS Pro, interactive dashbo
 | Folder | What lives there |
 |---|---|
 | `gee/` | Earth Engine scripts, numbered in run order. `00_config.js` holds every shared setting |
-| `data/raw/` | Downloads (Landsat, WSF, GHS-FUA). **Not pushed to GitHub** (too big) |
-| `data/boundaries/` | The one Kumasi study-area boundary used everywhere |
+| `data/raw/` | Downloads (Landsat, WSF, GHS-FUA). |
+| `data/boundaries/` | The kumasi study are |
 | `data/processed/` | Small outputs: CSV tables exported from GEE |
-| `arcgis/` | ArcGIS Pro project for the homework maps |
-| `python/` | Data preparation scripts (later) |
+| `arcgis/` | ArcGIS Pro project for the maps |
+| `python/` | Data preparation scripts |
 
 ## Data
 See [`data/README.md`](data/README.md) for every dataset, its source and licence.
