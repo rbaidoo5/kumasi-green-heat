@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Wednesday, 21 October 2026 1:11:00 pm</msg><msg code="0" type="0">Con((Raster(r"wsf_kum_utm") &gt; 0) &amp; ( Raster(r"wsf_kum_utm") &lt;= 1995), 1, 0)</msg><msg code="0" type="3">Succeeded at Wednesday, 21 October 2026 1:11:04 pm (Elapsed Time: 3.90 seconds)</msg></messages>

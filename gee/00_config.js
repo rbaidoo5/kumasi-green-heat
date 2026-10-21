@@ -77,5 +77,8 @@ exports.palettes = {
   ndvi: ['#a6611a', '#dfc27d', '#f5f5f5', '#80cdc1', '#018571'],
   ndbi: ['#2c7bb6', '#abd9e9', '#ffffbf', '#fdae61', '#d7191c'],
   lst:  ['#313695', '#74add1', '#ffffbf', '#f46d43', '#a50026'],
-  growth: ['#fde725', '#7ad151', '#22a884', '#2a788e', '#414487', '#440154'] // early -> late
+  // Growth classes: settled by 1985, 1986–95, 1996–2005, 2006–15.
+  // Old core quiet, newest strongest (visual hierarchy follows the story).
+  growthLight: ['#c9c9c9', '#fdd49e', '#fc8d59', '#d7301f'],   // "Ember": report, print, ArcGIS
+  growthDark:  ['#4c566a', '#b5577e', '#f28f3b', '#ffd166']    // "City lights": GEE / dashboard on a dark map
 };
